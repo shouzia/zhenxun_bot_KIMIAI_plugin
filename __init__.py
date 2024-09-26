@@ -4,7 +4,6 @@ from nonebot.adapters.onebot.v11 import Bot, GroupMessageEvent, Message, Message
 from nonebot.rule import to_me
 from nonebot.typing import T_State
 from nonebot.adapters import Bot, Event
-from services.log import logger
 from utils.manager import withdraw_message_manager
 from configs.config import Config
 import requests
